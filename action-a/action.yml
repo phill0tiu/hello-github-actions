@@ -1,0 +1,17 @@
+name: "hello world actions"
+description: "kkk eae man!!!"
+author: "num 100i"
+
+inputs:
+  MY_NAME:
+    description: "who to greet"
+    required: true
+    default: "world"
+    
+runs:
+  using: "Docker"
+  image: "Dockerfile"
+  
+branding:
+  icon: "mic"
+  color: purple"
